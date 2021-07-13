@@ -1,7 +1,7 @@
 ##css_training_1
 
-###This is CSS Training Section 1.
-###Include index.html and styles.css
+This is CSS Training Section 1.
+Include index.html and styles.css
 
 ### Use the following steps to commit to cloud repo.
 ```
