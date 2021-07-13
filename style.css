@@ -1,0 +1,95 @@
+/* Global styles
+-----------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: lightblue;
+  margin: 0px;
+}
+h1,
+h2 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0px;
+}
+a {
+  color: #ef233c;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+
+/* Header and footer
+-----------------------*/
+.profile-img {
+  border-radius: 50%;
+}
+header,
+footer {
+  background-color: #2b2d42;
+  color: #8d99ae;
+}
+/* header ---- */
+
+header h1,
+header h2 {
+  color: #edf2f4;
+  margin: 0px;
+}
+/* footer ---- */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  background: white;
+  padding: 0px;
+  display: inline-block;
+}
+
+/* Work Exp
+-----------------------*/
+.work {
+  background-color: #edf2f4;
+}
+
+/* Education
+-----------------------*/
+.education {
+  background-color: #8d99ae;
+}
